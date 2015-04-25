@@ -1,0 +1,2 @@
+#ATTRS{uniq}=="04:98:f3:7a:e6:8b", ENV{DEVNAME}=="/dev/input/event*", SYMLINK+="input/dualshock3", RUN+="/home/robin/.scripts/ps3to360.sh"
+ATTRS{uniq}=="04:98:f3:7a:e6:8b", ENV{DEVNAME}=="/dev/input/event*", RUN+="/home/robin/.scripts/ps3to360.sh $devnode"
